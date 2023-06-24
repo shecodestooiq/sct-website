@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.btn-warning {
+    margin-top: 20px;
+}
+
+
