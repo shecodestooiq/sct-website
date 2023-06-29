@@ -2,15 +2,37 @@
     font-family: 'Cairo', sans-serif;;
   }
 
-  .row{
+  .row1{
     font-family: 'Cairo', sans-serif;;
     display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: aqua; */
         height: 100vh;
   }
   .btn{
-background-color: bisque;
+background-color: blueviolet;
 font-family: 'Cairo', sans-serif;;
+  }
+
+  .middiv{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+  }
+  .card{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .formes{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .formes2{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .col-12{
+    text-align: center;
   }
