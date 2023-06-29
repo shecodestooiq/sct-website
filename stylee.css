@@ -1,0 +1,62 @@
+.nav-item {
+    padding-right: 50px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#text {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.Cards {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.col {
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    padding: 20px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 10px;
+}
+.contact {
+    text-align: center;
+    margin: 80px;
+}
+.form{
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-top: 80px;
+}
+.form-control {
+    border: none;
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+}
+/* @media screen and (max-width: 500px) {
+
+    #card,
+    #image,
+    #text {
+        width: 50%;
+    }
+} */
