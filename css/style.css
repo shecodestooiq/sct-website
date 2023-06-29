@@ -1,8 +1,6 @@
-h5,
-p {
+.carousel h5 p {
     color: aliceblue;
 }
-
 
 .row p {
     color: rgb(36, 36, 36);
@@ -22,14 +20,58 @@ p {
 
 
 
-nav{
-  
+nav {
+
     position: fixed;
     z-index: 1;
     width: 100%;
 }
 
-.navbar-nav{
+.navbar-nav {
 
     float: right !important;
+}
+
+section>p,
+h1 {
+
+    text-align: center;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.flex-container>div {
+    margin: 2rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    margin: 6rem;
+}
+
+.contact-text {
+   margin: auto;
+    width: 20rem;
+    padding-bottom: 2rem;
+}
+
+
+footer >.form-group {
+    padding: 1rem;
+    background-color: rgb(242, 242, 242);
+}
+
+.form-control {
+    margin-top: 0.5rem;
 }
